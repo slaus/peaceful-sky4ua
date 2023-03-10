@@ -1,0 +1,433 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Donator - Event Single</title>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.png">
+
+	<!-- ===== Bootstrap css section ===== -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+	<!-- ===== Fontawesome css section ===== -->
+	<link rel="stylesheet" href="assets/css/all.min.css">
+
+	<!-- ===== Google Font section ===== -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">  
+
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+	<!-- Popup Css -->
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+	<!-- Progress Bar CSS -->
+	<link rel="stylesheet" href="assets/css/progress-bar.css">
+
+	<!-- ===== Style css section ===== -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- ===== Responsive css section ===== -->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+	<!-- preloader start here  -->
+	<div class="preloader">
+	    <div class="preloader-inner">
+	        <div class="preloader-icon">
+	            <span></span>
+	            <span></span>
+	        </div>
+	    </div>
+	</div>
+	<!-- preloader ending here -->
+
+
+	<!-- scrollToTop start here -->
+	<a href="#" class="scrollToTop">
+		<i class="fas fa-long-arrow-alt-up"></i>
+		<span class="pluse_1"></span>
+		<span class="pluse_2"></span>
+	</a>
+	<!-- scrollToTop ending here -->
+
+
+	<!-- Starts Header Section -->
+	<div class="header">
+	    <div class="container">
+	        <nav class="navbar navbar-expand-lg">
+	            <div class="container-fluid">
+	                <a class="navbar-brand" href="index.html">
+	                    <img src="assets/images/logo/logoheader.png" alt="logo">
+	                </a>
+	                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	                    <!-- <span class="navbar-toggler-icon"></span> -->
+	                    <i style="color: white;" class="fa-solid fa-bars"></i>
+	                </button>
+	                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+	                        <li class="nav-item dropdown">
+	                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Home </a>
+	                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+	                                <li>
+	                                    <a class="dropdown-item" href="index.html">Home</a>
+	                                </li>
+	                                <li>
+	                                    <a class="dropdown-item" href="index-2.html">Home 2</a>
+	                                </li>
+	                            </ul>
+	                        </li>
+	                        <li class="nav-item dropdown">
+	                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownb" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Gallery </a>
+	                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownb">
+	                                <li>
+	                                    <a class="dropdown-item" href="gallery.html">Gallery</a>
+	                                </li>
+	                                <li>
+	                                    <a class="dropdown-item" href="gallery-2.html">Gallery 2</a>
+	                                </li>
+	                            </ul>
+	                        </li>
+	                        <li class="nav-item dropdown">
+	                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownc" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Causes </a>
+	                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownc">
+	                                <li>
+	                                    <a class="dropdown-item" href="causes.html">Causes</a>
+	                                </li>
+	                                <li>
+	                                    <a class="dropdown-item" href="causes-single.html">Causes Single</a>
+	                                </li>
+	                            </ul>
+	                        </li>
+	                        <li class="nav-item dropdown">
+	                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownd" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Event </a>
+	                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownd">
+	                                <li>
+	                                    <a class="dropdown-item" href="event.html">Event</a>
+	                                </li>
+	                                <li>
+	                                    <a class="dropdown-item" href="event-single.html">Event Single</a>
+	                                </li>
+	                            </ul>
+	                        </li>
+	                        <li class="nav-item dropdown">
+	                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdowne" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Pages </a>
+	                            <ul class="dropdown-menu" aria-labelledby="navbarDropdowne">
+	                                <li>
+	                                    <a class="dropdown-item" href="volunteer.html">Volunteer</a>
+	                                </li>
+	                                <li class="nav-item">
+			                            <a class="dropdown-item" href="about.html">About</a>
+			                        </li>
+	                                <li>
+	                                    <a class="dropdown-item" href="faq.html">Faqs</a>
+	                                </li>
+	                                <li>
+	                                    <a class="dropdown-item" href="404.html">404</a>
+	                                </li>
+	                            </ul>
+	                        </li>
+	                        <li class="nav-item dropdown">
+	                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdowna" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Blog </a>
+	                            <ul class="dropdown-menu" aria-labelledby="navbarDropdowna">
+	                                <li>
+	                                    <a class="dropdown-item" href="blog.html">Blog Style 1</a>
+	                                </li>
+	                                <li>
+	                                    <a class="dropdown-item" href="blog-2.html">Blog Style 2</a>
+	                                </li>
+	                                <li>
+	                                    <a class="dropdown-item" href="blog-single.html">Blog Single</a>
+	                                </li>
+	                            </ul>
+	                        </li>
+	                        <li class="nav-item">
+	                            <a class="nav-link" href="contact.html">Contact</a>
+	                        </li>
+	                    </ul>
+	                    <form class="d-flex" role="search">
+	                        <select class="language">
+	                            <option value="English" selected>English</option>
+	                            <option value="Bangla">Bangla</option>
+	                            <option value="France">France</option>
+	                        </select>
+	                    </form>
+	                    <a class="header-btn btn-bg-normal" href="#">Donate</a>
+	                </div>
+	            </div>
+	        </nav>
+	    </div>
+	</div>
+	<!-- Ends Header Section -->
+	
+
+	<!-- Starts Hero Section -->
+	<div class="banner-event-single banner-inner">
+		<div class="bgc">
+			<div class="container">
+				<div class="overlay">
+					<div class="content">
+						<div class="sub-heading">
+							<h2>Donator <span>Event Single</span></h2>
+						</div>
+						<!-- Breadcrumb -->
+						<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+							<ol class="breadcrumb">
+							  	<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+							  	<li class="breadcrumb-item active" aria-current="page">Event Single</li>
+							</ol>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Ends Hero Section -->
+
+	<!-- Starts Event-Single body Section -->
+	<div class="event__article py-100">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="article__img">
+						<img src="assets/images/article.jpg" alt="Article Image">
+					</div>
+					<div class="article__info py-50">
+						<h5 class="article__title">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure magnam inventore earum perspiciatis soluta eligendi quam iusto debitis vel, voluptatum optio porro a voluptatibus, accusantium officiis obcaecati consectetur molestiae architecto!
+						</h5>
+						<p class="article__text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore recusandae soluta aspernatur voluptatum aliquam atque asperiores vel. Eius inventore nobis quia illo id deserunt praesentium aperiam ipsam beatae! Eum, debitis!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non beatae ea sapiente, eaque totam architecto iste rerum tempore impedit? Reprehenderit possimus soluta ullam optio rem officia. Nam molestiae architecto obcaecati.
+						</p>
+						<p class="article__text article__filled">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore recusandae soluta aspernatur voluptatum aliquam atque asperiores vel. Eius inventore nobis quia illo id deserunt praesentium aperiam ipsam beatae! Eum, debitis!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non beatae ea sapiente, eaque totam architecto iste rerum tempore impedit? Reprehenderit possimus soluta ullam optio rem officia. Nam molestiae architecto obcaecati.
+						</p>
+						<p class="article__text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore recusandae soluta aspernatur voluptatum aliquam atque asperiores vel. Eius inventore nobis quia illo id deserunt praesentium aperiam ipsam beatae! Eum, debitis!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non beatae ea sapiente, eaque totam architecto iste rerum tempore impedit? Reprehenderit possimus soluta ullam optio rem officia. Nam molestiae architecto obcaecati.
+						</p>
+						<p class="article__text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore recusandae soluta aspernatur voluptatum aliquam atque asperiores vel. Eius inventore nobis quia illo id deserunt praesentium aperiam ipsam beatae! Eum, debitis!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non beatae ea sapiente, eaque totam architecto iste rerum tempore impedit? Reprehenderit possimus soluta ullam optio rem officia. Nam molestiae architecto obcaecati.
+						</p>
+						<ul class="article__list">
+							<li class="article__text">
+								<img src="assets/images/tick.svg" alt="svg">
+								Lorem ipsum dolor sit amet, consectetur
+							</li>
+							<li class="article__text">
+								<img src="assets/images/tick.svg" alt="svg">
+								Lorem ipsum dolor sit amet, consectetur
+							</li>
+							<li class="article__text">
+								<img src="assets/images/tick.svg" alt="svg">
+								Lorem ipsum dolor sit amet, consectetur
+							</li>
+							<li class="article__text">
+								<img src="assets/images/tick.svg" alt="svg">
+								Lorem ipsum dolor sit amet, consectetur
+							</li>
+							<li class="article__text">
+								<img src="assets/images/tick.svg" alt="svg">
+								Lorem ipsum dolor sit amet, consectetur
+							</li>
+							<li class="article__text">
+								<img src="assets/images/tick.svg" alt="svg">
+								Lorem ipsum dolor sit amet, consectetur
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Ends Event-Single body Section -->
+
+	<!-- Starts Event Card Section -->
+	<div class="event__card pb-100">
+		<div class="container">
+			<!-- Card Item -->
+			<div class="card__item">
+				<div class="row">
+					<div class="col-lg-6">
+						<!-- Item List -->
+						<div class="item__list">
+							<!-- List Inner -->
+							<div class="list__inner">
+								<!-- Image -->
+								<div class="inner__img">
+									<img src="assets/images/blog_1.jpg" alt="Image">
+								</div>
+								<!-- Inner Content -->
+								<div class="inner__content">
+									<!-- Content Title -->
+									<h2 class="content__title">
+										<a href="#">The Culture of India</a>
+									</h2>
+									<!-- Inner Details -->
+									<div class="inner__details">
+										<ul>
+											<li>
+												<h4>Details</h4>
+												<p><span>Start:</span><span>Nov 30, 2022</span></p>
+												<p><span>Finish:</span><span>Oct 10, 2022</span></p>
+											</li>
+											<li>
+												<h4>Organizer</h4>
+												<p><span>Phone:</span><span>+0123456789</span></p>
+												<p><span>E-mail:</span><span>info@example.com</span></p>
+											</li>
+											<li>
+												<h4>Venue</h4>
+												<p><span>Location:</span> 011-1234 <br> Nulla St. Mankato <br> Mississippi</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<!-- Item List -->
+						<div class="item__list">
+							<!-- List Inner -->
+							<div class="list__inner">
+								<!-- Image -->
+								<div class="inner__img">
+									<img src="assets/images/blog_2.jpg" alt="Image">
+								</div>
+								<!-- Inner Content -->
+								<div class="inner__content">
+									<!-- Content Title -->
+									<h2 class="content__title">
+										<a href="#">The Culture of Africa</a>
+									</h2>
+									<!-- Inner Details -->
+									<div class="inner__details">
+										<ul>
+											<li>
+												<h4>Details</h4>
+												<p><span>Start:</span><span>Nov 30, 2022</span></p>
+												<p><span>Finish:</span><span>Oct 10, 2022</span></p>
+											</li>
+											<li>
+												<h4>Organizer</h4>
+												<p><span>Phone:</span><span>+0123456789</span></p>
+												<p><span>E-mail:</span><span>info@example.com</span></p>
+											</li>
+											<li>
+												<h4>Venue</h4>
+												<p><span>Location:</span> 011-1234 <br> Nulla St. Mankato <br> Mississippi</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Ends Event Card Section -->
+	
+	<!-- Starts Footer Section -->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-lg-4">
+					<div class="footer-address">
+						<div class="footer-logo">
+							<a href="index.html">
+								<img src="assets/images/logo/logofooter.png" alt="logo">
+							</a>
+						</div>
+						<div class="address">
+							<p><a href="#">Cecilia Chapman 011-1234 Nulla St. Mankato Mississippi 12345 (012) 123-1234</a></p>
+							<p>Phone: <a href="#">+0123456789</a></p>
+							<p>Email: <a href="#">info@example.com</a></p>
+						</div>
+						<div class="footer-icon">
+							<ul>
+								<li><a href="https://www.example.com"><i class="fa-brands fa-facebook-f"></i></a></li>
+								<li><a href="https://www.example.com"><i class="fa-brands fa-twitter"></i></a></li>
+								<li><a href="https://www.example.com"><i class="fa-brands fa-google-plus-g"></i></a></li>
+								<li><a href="https://www.example.com"><i class="fa-brands fa-instagram"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4 col-xl-3 offset-xl-1">
+					<div class="footer-menu">
+						<h6>Menu & Links</h6>
+						<ul class="menu">
+							<li><a href="#"><span>Home Page</span></a></li>
+							<li><a href="#"><span>Blog & News</span></a></li>
+							<li><a href="#"><span>About Us</span></a></li>
+							<li><a href="#"><span>Contact Us</span></a></li>
+							<li><a href="#"><span>Pages</span></a></li>
+							<li><a href="#"><span>Elements</span></a></li>
+							<li><a href="#"><span>Causes</span></a></li>
+							<li><a href="#"><span>Documentation</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4 col-xl-3 offset-xl-1">
+					<div class="footer-subcribe">
+						<h6>Newsletter</h6>
+						<form action="#">
+							<input type="email" name="Email" placeholder="Enter your E-mail">
+							<button class="footer-button btn-bg">Subcribe</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="copy-right">
+				<div class="row">
+					<div class="col-lg-6 order-1">
+						<p class="copy-right__text">© 2022 Donator Charity HTML Template by Xploretheme</p>
+					</div>
+					<div class="col-lg-6 order-lg-1">
+						<ul class="copy-right__menu">
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Term and Condision</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Ends Footer Section -->
+
+
+
+	<!-- ===== jQuery section ===== -->
+	<script src="assets/js/jquery-3.6.0.min.js"></script>
+
+	<!-- ====== Bootstrap js section ===== -->
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+	<!-- ====== Fontawesome js section ===== -->
+	<script src="assets/js/all.min.js"></script>
+
+	<!-- Swiper JS -->
+	<script src="assets/js/swiper-bundle.min.js"></script>
+
+	<!-- Isotope JS -->
+	<script src="assets/js/isotope.pkgd.min.js"></script>
+
+	<!-- Popup JS -->
+	<script src="assets/js/jquery.magnific-popup.js"></script>
+
+	<!-- Progress Bar JS -->
+	<script src="assets/js/progress-bar.js"></script>
+
+	<!-- Script js -->
+	<script src="assets/js/script.js"></script>
+</body>
+</html>
